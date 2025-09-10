@@ -1,0 +1,80 @@
+/* Fuente normal */
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("fonts/NunitoSans-VariableFont.ttf") format("truetype");
+    font-weight: 100 900;
+    /* rango de pesos disponibles */
+    font-style: normal;
+}
+/* Fuente itálica */
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("fonts/NunitoSans-Italic-VariableFont.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+}
+/* Aplicación general */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+/*---------------------------FONDOS-----------------------------*/
+
+.bg-img-tech {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.bg-img-tech::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/fondo.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+.bg-black {
+    background: #1E1E1E !important;
+}
+/*------------------------TEXTOS--------------------------------*/
+
+.text-black {
+    color: #1E1E1E !important;
+}
+.text-home {
+    margin-top: 7.3%;
+}
+.text-servicios {
+    margin-top: 2%;
+}
+/*---------------------------BORDES-----------------------------*/
+
+.rounded {
+    border-radius: 12px !important;
+}
+/*------------------------SERVICIOS--------------------------------*/
+
+.categorias-nav {
+    display: flex;
+    justify-content: space-between;
+    /* distribuye equidistante */
+    max-width: 100%;
+    /* ancho máximo centrado */
+    margin: 0 auto;
+    /* centra horizontal */
+    gap: 12rem;
+    /* espacio entre botones */
+}
+.nav-pills .nav-link {
+    padding: 0.8rem 3rem;
+    border-radius: 12px !important;
+}
