@@ -9,13 +9,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+	<a id="btnSubir" class="btn btn-dark rounded-circle shadow" href="#inicio">
+		<i class="fas fa-arrow-up"></i>
+	</a>
 	<!-- Hero con navbar -->
-	<section class="bg-img-tech">
+	<section class="bg-img-tech" id="inicio">
 		<nav class="navbar navbar-expand-lg navbar-light bg-transparent p-4 container-fluid">
 			<!-- Branding -->
-			<a class="navbar-brand d-flex align-items-center fw-bold logo ml-4" href="#">
+			<a class="navbar-brand d-flex align-items-center fw-bold logo ml-4" href="index.html">
 				<img src="img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top mr-4">
 				<h4 class="align-items-center mt-2">TechServices</h4>
 			</a>
@@ -30,16 +34,16 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto h4">
 				<li class="nav-item active">
-					<a class="nav-link text-black" href="#">Inicio <span class="sr-only">(current)</span></a>
+					<a class="nav-link text-black" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item ml-4">
-					<a class="nav-link text-black" href="#">Servicios</a>
+					<a class="nav-link text-black" href="#servicios">Servicios</a>
 				</li>
 				<li class="nav-item ml-4">
-					<a class="nav-link text-black" href="#">Contáctanos</a>
+					<a class="nav-link text-black" href="#contacto">Contáctanos</a>
 				</li>
 				<li class="nav-item ml-4 mr-4">
-					<a class="nav-link text-black" href="#">Login</a>
+					<a class="nav-link text-black" href="login.html">Login</a>
 				</li>
 			</ul>
 		</div>
@@ -64,7 +68,7 @@
 	</div>
 </section>
 
-<section class="mb-4">
+<section class="mb-4 pt-1" id="servicios">
 	<div class="container-fluid text-servicios px-5">
 		<div class="row">
 			<div class="col-12">
@@ -73,55 +77,33 @@
 			<div class="col-lg-12">
 				<ul class="nav nav-pills mb-5 justify-content-center categorias-nav p-2 bg-black rounded" id="pills-tab" role="tablist">
 					<li class="nav-item">
-						<button type="button" data-toggle="pill" data-target="#todos" class="nav-link font-weight-bold bg-white text-dark active" href="#">Todos</button>
+						<button type="button" data-toggle="pill" data-target="#todo" class="nav-link font-weight-bold bg-white text-dark active" href="#">Todos</button>
 					</li>
 					<li class="nav-item">
-						<button type="button" data-toggle="pill" data-target="#seguridad" class="nav-link font-weight-bold bg-black text-white" href="#">Seguridad</button>
+						<button type="button" data-toggle="pill" data-target="#Seguridad" class="nav-link font-weight-bold bg-black text-white" href="#">Seguridad</button>
 					</li>
 					<li class="nav-item">
-						<button type="button" data-toggle="pill" data-target="#estrategia" class="nav-link font-weight-bold bg-black text-white" href="#">Estrategia</button>
+						<button type="button" data-toggle="pill" data-target="#Estrategia" class="nav-link font-weight-bold bg-black text-white" href="#">Estrategia</button>
 					</li>
 					<li class="nav-item">
-						<button type="button" data-toggle="pill" data-target="#desarrollo" class="nav-link font-weight-bold bg-black text-white" href="#">Desarrollo</button>
+						<button type="button" data-toggle="pill" data-target="#Desarrollo" class="nav-link font-weight-bold bg-black text-white" href="#">Desarrollo</button>
 					</li>
 					<li class="nav-item">
-						<button type="button" data-toggle="pill" data-target="#infraestructura" class="nav-link font-weight-bold bg-black text-white" href="#">Infraestructura</button>
+						<button type="button" data-toggle="pill" data-target="#Infraestructura" class="nav-link font-weight-bold bg-black text-white" href="#">Infraestructura</button>
 					</li>
 				</ul>
 			</div>
 			<div class="col-lg-12">
-				<div class="tab-content" id="pills-tabContent">
-					<div class="tab-pane fade show active" id="todos" role="tabpanel" aria-labelledby="home-tab">
-						<h3 class="font-weight-bold">Desarrollo</h3>
-						<div class="row mt-4">
-							<div class="col-lg-4">
-								<div class="card w-75 rounded shadow-sm">
-									<img src="img/prueba.jpg" class="card-img-top img-fluid">
-									<div class="card-body">
-										<h5 class="card-title font-weight-bold">Software a medida</h5>
-										<p class="card-text">Soluciones unicas, retos unicos.</p>
-										<p class="card-text font-weight-light">Creamos software diseñado desde cero para adaptarse a tu negocio, con escalabilidad, seguridad y eficiencia.</p>
-										<a href="#" class="btn btn-dark btn px-4 rounded">Cotizar</a>
-									</div>
-								</div>
-							</div>
-						</div>
+				<div class="tab-content lista_servicios" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="todo" role="tabpanel" aria-labelledby="home-tab">
 					</div>
-					<div class="tab-pane fade" id="seguridad" role="tabpanel" aria-labelledby="home-tab">
-						<h3 class="font-weight-bold">Seguridad</h3>
-						<div class="row mt-4">
-							<div class="col-lg-4">
-								<div class="card w-75 rounded shadow-sm">
-									<img src="img/prueba.jpg" class="card-img-top img-fluid">
-									<div class="card-body">
-										<h5 class="card-title font-weight-bold">Software a medida</h5>
-										<p class="card-text">Soluciones unicas, retos unicos.</p>
-										<p class="card-text font-weight-light">Creamos software diseñado desde cero para adaptarse a tu negocio, con escalabilidad, seguridad y eficiencia.</p>
-										<a href="#" class="btn btn-dark btn px-4 rounded">Cotizar</a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="tab-pane fade" id="Seguridad" role="tabpanel" aria-labelledby="home-tab">
+					</div>
+					<div class="tab-pane fade" id="Estrategia" role="tabpanel" aria-labelledby="home-tab">
+					</div>
+					<div class="tab-pane fade" id="Desarrollo" role="tabpanel" aria-labelledby="home-tab">
+					</div>
+					<div class="tab-pane fade" id="Infraestructura" role="tabpanel" aria-labelledby="home-tab">
 					</div>
 				</div>
 			</div>
@@ -129,7 +111,7 @@
 	</div>
 </section>
 
-<section>
+<section id="contacto">
 	<div class="container-fluid bg-black">
 		<div class="row p-5">
 			<div class="col-lg-6 mt-5 justify-content-center p-5">
@@ -214,5 +196,7 @@
 <!-- SCRIPTS -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script src="js/servicios.js"></script>
 </body>
 </html>

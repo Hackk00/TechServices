@@ -1,0 +1,111 @@
+{
+  "Servicios": [{
+    "id": 1,
+    "Nombre": "Software a medida",
+    "slogan": "Soluciones únicas sin límites",
+    "Categoria": "Desarrollo",
+    "Descripcion": "Creamos software dedicado único para tu empresa, con escalabilidad, seguridad y eficiencia.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 2,
+    "Nombre": "Desarrollo de Páginas Web",
+    "slogan": "Tu presencia digital, eficiente",
+    "Categoria": "Desarrollo",
+    "Descripcion": "Desarrollamos sitios web modernos, rápidos y efectivos para atraer más clientes y aumentar tu alcance.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 3,
+    "Nombre": "Apps Móviles (Android / iOS)",
+    "slogan": "Conecta con tus clientes en cualquier lugar",
+    "Categoria": "Desarrollo",
+    "Descripcion": "Desarrollamos apps móviles nativas e híbridas (Android/iOS), centradas en usabilidad y rendimiento.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 4,
+    "Nombre": "Cloud Hosting & Backup",
+    "slogan": "Infraestructura flexible y segura",
+    "Categoria": "Infraestructura",
+    "Descripcion": "Asegura y optimiza tu sistema en la nube con nuestras soluciones escalables y seguras, disponibles 24/7.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 5,
+    "Nombre": "Soporte Técnico Empresarial",
+    "slogan": "Respuesta rápida, sistemas siempre activos",
+    "Categoria": "Infraestructura",
+    "Descripcion": "Brindamos soporte completo y continuo para mantener la estabilidad operativa de tu empresa.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 6,
+    "Nombre": "Integración (ERP / CRM)",
+    "slogan": "Todas tus operaciones en un mismo flujo",
+    "Categoria": "Infraestructura",
+    "Descripcion": "Mejoramos la productividad de tu empresa integrando ERP/CRM para centralizar y gestionar la información.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 7,
+    "Nombre": "Consultoría en Ciberseguridad",
+    "slogan": "Protege tu negocio de los expertos",
+    "Categoria": "Seguridad",
+    "Descripcion": "Identificamos vulnerabilidades, aplicamos buenas prácticas y fortalecemos la seguridad de tu sistema.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 8,
+    "Nombre": "Automatización de Procesos con IA",
+    "slogan": "Eficiencia inteligente con inteligencia artificial",
+    "Categoria": "Seguridad",
+    "Descripcion": "Reducimos tiempos y costos automatizando flujos mediante modelos y algoritmos de IA.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 9,
+    "Nombre": "Inteligencia de Negocios",
+    "slogan": "Conviértete en data-driven",
+    "Categoria": "Estrategia",
+    "Descripcion": "Transformamos tus datos en información accionable, optimizando decisiones estratégicas de tu negocio.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 10,
+    "Nombre": "Capacitación Tecnológica",
+    "slogan": "Potencia el conocimiento de tu equipo",
+    "Categoria": "Estrategia",
+    "Descripcion": "Diseñamos programas de formación en herramientas digitales, según las necesidades de tu empresa.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 11,
+    "Nombre": "Transformación Digital",
+    "slogan": "Estrategia tecnológica para el futuro",
+    "Categoria": "Estrategia",
+    "Descripcion": "Acompañamos la evolución de tu empresa digitalizando procesos y adoptando nuevas tecnologías.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }, {
+    "id": 12,
+    "Nombre": "Optimización de Procesos",
+    "slogan": "Más eficientes, menos costos",
+    "Categoria": "Estrategia",
+    "Descripcion": "Analizamos y rediseñamos tus procesos para aumentar la productividad y disminuir gastos operativos.",
+    "Imagen": "prueba.jpg",
+    "Beneficios": [],
+    "estado": "Activo"
+  }]
+}
