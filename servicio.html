@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TechServices</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+	<a id="btnSubir" class="btn btn-dark rounded-circle shadow" href="#inicio">
+		<i class="fas fa-arrow-up"></i>
+	</a>
+	<!-- Hero con navbar -->
+	<section class="bg-img-tech" id="inicio">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent p-4 container-fluid">
+			<!-- Branding -->
+			<a class="navbar-brand d-flex align-items-center fw-bold logo ml-4" href="index.html">
+				<img src="img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top mr-4">
+				<h4 class="align-items-center mt-2">TechServices</h4>
+			</a>
+
+			<!-- Botón responsive -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- Menú -->
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto h4">
+				<li class="nav-item active">
+					<a class="nav-link text-black" href="index.html#inicio">Inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item ml-4">
+					<a class="nav-link text-black" href="index.html#servicios">Servicios</a>
+				</li>
+				<li class="nav-item ml-4">
+					<a class="nav-link text-black" href="index.html#contacto">Contáctanos</a>
+				</li>
+				<li class="nav-item ml-4 mr-4">
+					<a class="nav-link text-black" href="login.html">Login</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Texto Hero -->
+	<div class="container-fluid text-home px-5">
+		<div class="row">
+			<div class="col-lg-12 ml-4 mt-5">
+				<h1 class="display-3 font-weight-bold text-black mb-2 titulo"></h1>
+				<p class="lead mt-4 font-weight-normal slogan"></p>
+				<p class="lead mt-n3 descripcion"></p>
+				<a href="index.html#contacto" class="btn btn-dark btn-lg px-5 pt-3 pb-3 mt-4 rounded shadow-sm">
+					Solicita una cotizaci&oacute;n
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container-fluid">
+		<div class="row p-4"> 
+			<!---------------------------->
+			<div class="col-lg-6 form-group d-flex justify-content-center align-items-center">
+				<div class="card border-0 w-75">
+					<div class="card-body">
+						<h1 class="font-weight-bold text-black mt-3">Que es el <span class="titulo"></span> ?</h1>
+						<p class="significado font-weight-normal mt-2"></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 p-4 text-center form-group d-flex justify-content-center align-items-center">
+				<img src="img/recurso1.jpg" class="img-fluid" width="800" height="800">
+			</div>
+			<!---------------------------->
+			<div class="col-lg-6 p-4 text-center form-group d-flex justify-content-center align-items-center">
+				<img src="img/recurso2.jpg" class="img-fluid" width="800" height="800">
+			</div>
+			<div class="col-lg-6 form-group d-flex justify-content-center align-items-center">
+				<div class="card border-0 w-75">
+					<div class="card-body">
+						<h1 class="font-weight-bold text-black mt-3">Beneficios para tu empresa</h1>
+						<ul class="list-unstyled beneficios mt-2"></ul>
+					</div>
+				</div>
+			</div>
+			<!---------------------------->
+			<div class="col-lg-6 form-group d-flex justify-content-center align-items-center">
+				<div class="card border-0 w-75">
+					<div class="card-body">
+						<h1 class="font-weight-bold text-black mt-3">Donde aplicar el <span class="titulo"></span> ?</h1>
+						<ul class="list-unstyled aplicacion mt-2"></ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 p-4 text-center form-group d-flex justify-content-center align-items-center">
+				<img src="img/recurso3.jpg" class="img-fluid" width="800" height="800">
+			</div>
+			<!---------------------------->
+			<div class="col-lg-6 p-4 text-center form-group d-flex justify-content-center align-items-center">
+				<img src="img/recurso4.jpg" class="img-fluid" width="800" height="800">
+			</div>
+			<div class="col-lg-6 form-group d-flex justify-content-center align-items-center">
+				<div class="card border-0 w-75">
+					<div class="card-body">
+						<h1 class="font-weight-bold text-black mt-3">¡Transforma tu negocio hoy!</h1>
+						<p class="font-weight-normal mt-2">Impulsa tu empresa con soluciones de software creadas especialmente para ti.</p>
+						<a href="index.html#contacto" class="btn btn-dark btn-lg px-5 pt-3 pb-3 mt-4 rounded shadow-sm">
+							Solicita una cotizaci&oacute;n
+						</a>
+					</div>
+				</div>
+			</div>
+			<!---------------------------->
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container-fluid">
+		<div class="row p-5">
+			<div class="col-lg-12">
+				<a class="navbar-brand d-flex align-items-center fw-bold logo" href="#">
+					<img src="img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-top mr-4">
+					<h5 class="align-items-center mt-2 text-dark">TechServices</h5>
+				</a>
+			</div>
+			<div class="col-lg-8 mt-4">
+				<p class="float-left font-weight-light">&copy; 2025 <strong>Tech Services</strong> • All Rights Reserved.</p>
+			</div>
+			<div class="col-lg-2 mt-4">
+				<a class="text-center text-black font-weight-bold" href="#">Política de Privacidad</a>
+			</div>
+			<div class="col-lg-2 mt-4">
+				<a class="text-center text-black font-weight-bold" href="#">Términos y Condiciones</a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script src="js/servicioDetalle.js"></script>
+</body>
+</html>

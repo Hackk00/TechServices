@@ -16,7 +16,7 @@ $(document).ready(function() {
             <h5 class="card-title font-weight-bold">${servicio.Nombre}</h5>
             <p class="card-text">${servicio.slogan}</p>
             <p class="card-text font-weight-light">${servicio.Descripcion}</p>
-            <a href="servicio/${servicio.id}" class="btn btn-dark px-4 rounded">Ver m&aacute;s</a>
+            <a href="servicio.html?id=${servicio.id}" class="btn btn-dark px-4 rounded">Ver m&aacute;s</a>
           </div>
         </div>
       </div>

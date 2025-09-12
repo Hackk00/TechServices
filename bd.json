@@ -6,8 +6,22 @@
     "Categoria": "Desarrollo",
     "Descripcion": "Creamos software dedicado único para tu empresa, con escalabilidad, seguridad y eficiencia.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Adaptación exacta a las necesidades del negocio",
+      "Mayor eficiencia en procesos internos",
+      "Escalabilidad para crecer junto con la empresa",
+      "Mayor seguridad en comparación con soluciones genéricas",
+      "Soporte y mantenimiento personalizado"
+    ],
+    "Aplicacion": [
+      "Gestión de inventarios personalizada",
+      "Control de recursos humanos",
+      "Automatización de procesos administrativos",
+      "Integración con sistemas de facturación",
+      "Plataformas internas de comunicación"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa la capacidad de crear soluciones tecnológicas hechas a la medida exacta de cada empresa. No se trata de programas genéricos, sino de herramientas que responden a necesidades únicas y que evolucionan junto con el negocio."
   }, {
     "id": 2,
     "Nombre": "Desarrollo de Páginas Web",
@@ -15,8 +29,22 @@
     "Categoria": "Desarrollo",
     "Descripcion": "Desarrollamos sitios web modernos, rápidos y efectivos para atraer más clientes y aumentar tu alcance.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Mayor visibilidad online",
+      "Optimización SEO para atraer clientes",
+      "Diseño adaptable a dispositivos móviles",
+      "Carga rápida y segura",
+      "Fácil administración de contenidos"
+    ],
+    "Aplicacion": [
+      "Sitios web corporativos",
+      "Portafolios en línea",
+      "E-commerce y tiendas virtuales",
+      "Blogs profesionales",
+      "Landing pages para campañas"
+    ],
+    "estado": "Activo",
+    "Significado": "Significa visibilidad en el mundo digital, ofreciendo una puerta de entrada a clientes potenciales las 24 horas. Una página web es la carta de presentación moderna de cualquier empresa."
   }, {
     "id": 3,
     "Nombre": "Apps Móviles (Android / iOS)",
@@ -24,8 +52,22 @@
     "Categoria": "Desarrollo",
     "Descripcion": "Desarrollamos apps móviles nativas e híbridas (Android/iOS), centradas en usabilidad y rendimiento.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Acceso a clientes desde cualquier lugar",
+      "Mejora la fidelización del usuario",
+      "Experiencia optimizada para cada plataforma",
+      "Integración con sistemas existentes",
+      "Notificaciones push para interacción directa"
+    ],
+    "Aplicacion": [
+      "Apps de delivery",
+      "Aplicaciones de banca móvil",
+      "Plataformas educativas",
+      "Sistemas de reservas",
+      "Aplicaciones de seguimiento en tiempo real"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa la cercanía con el cliente, ya que las apps móviles permiten que tu negocio esté siempre al alcance de la mano. Además, potencian la interacción y fidelización con el usuario."
   }, {
     "id": 4,
     "Nombre": "Cloud Hosting & Backup",
@@ -33,8 +75,22 @@
     "Categoria": "Infraestructura",
     "Descripcion": "Asegura y optimiza tu sistema en la nube con nuestras soluciones escalables y seguras, disponibles 24/7.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Disponibilidad 24/7",
+      "Escalabilidad según demanda",
+      "Copias de seguridad automáticas",
+      "Acceso remoto desde cualquier lugar",
+      "Alta seguridad de datos"
+    ],
+    "Aplicacion": [
+      "Alojamiento de sitios web",
+      "Sistemas ERP/CRM en la nube",
+      "Respaldos automáticos de datos críticos",
+      "Servidores virtuales para pruebas",
+      "Colaboración en tiempo real"
+    ],
+    "estado": "Activo",
+    "Significado": "Significa tener tus datos y aplicaciones siempre disponibles, sin depender de un servidor físico en tu oficina. También asegura la continuidad de tu negocio frente a fallas o imprevistos."
   }, {
     "id": 5,
     "Nombre": "Soporte Técnico Empresarial",
@@ -42,8 +98,22 @@
     "Categoria": "Infraestructura",
     "Descripcion": "Brindamos soporte completo y continuo para mantener la estabilidad operativa de tu empresa.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Resolución rápida de incidencias",
+      "Prevención de fallos críticos",
+      "Mantenimiento constante",
+      "Atención especializada 24/7",
+      "Ahorro en costos de paradas técnicas"
+    ],
+    "Aplicacion": [
+      "Atención remota a usuarios",
+      "Monitoreo de servidores",
+      "Gestión de incidencias",
+      "Configuración de redes empresariales",
+      "Soporte en instalación de software"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa la tranquilidad de contar con un equipo listo para resolver incidentes tecnológicos. Es un pilar para que los sistemas funcionen sin interrupciones y la operación nunca se detenga."
   }, {
     "id": 6,
     "Nombre": "Integración (ERP / CRM)",
@@ -51,8 +121,22 @@
     "Categoria": "Infraestructura",
     "Descripcion": "Mejoramos la productividad de tu empresa integrando ERP/CRM para centralizar y gestionar la información.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Centralización de datos",
+      "Mayor productividad del personal",
+      "Reducción de errores humanos",
+      "Información en tiempo real",
+      "Mejor toma de decisiones"
+    ],
+    "Aplicacion": [
+      "Integración de facturación con ERP",
+      "Gestión de clientes en CRM",
+      "Automatización de reportes",
+      "Conexión entre sistemas de inventario",
+      "Seguimiento de ventas en tiempo real"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa la unificación de la información y los procesos en una sola plataforma. Esto evita duplicidad, mejora la productividad y permite tomar mejores decisiones."
   }, {
     "id": 7,
     "Nombre": "Consultoría en Ciberseguridad",
@@ -60,8 +144,22 @@
     "Categoria": "Seguridad",
     "Descripcion": "Identificamos vulnerabilidades, aplicamos buenas prácticas y fortalecemos la seguridad de tu sistema.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Protección contra ciberataques",
+      "Cumplimiento de normativas",
+      "Reducción de vulnerabilidades",
+      "Mayor confianza del cliente",
+      "Prevención de pérdidas de datos"
+    ],
+    "Aplicacion": [
+      "Auditorías de seguridad",
+      "Pruebas de penetración",
+      "Consultoría en normativas ISO/PCI",
+      "Capacitación en seguridad informática",
+      "Monitoreo constante de redes"
+    ],
+    "estado": "Activo",
+    "Significado": "Significa blindar los activos digitales de la empresa frente a amenazas. Más que tecnología, es confianza para que el negocio pueda crecer sin riesgos innecesarios."
   }, {
     "id": 8,
     "Nombre": "Automatización de Procesos con IA",
@@ -69,8 +167,22 @@
     "Categoria": "Seguridad",
     "Descripcion": "Reducimos tiempos y costos automatizando flujos mediante modelos y algoritmos de IA.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Reducción de tiempos operativos",
+      "Disminución de costos de mano de obra",
+      "Minimización de errores humanos",
+      "Mayor productividad general",
+      "Procesos inteligentes y adaptativos"
+    ],
+    "Aplicacion": [
+      "Chatbots de atención al cliente",
+      "Procesamiento automático de facturas",
+      "Análisis predictivo de ventas",
+      "Control de calidad con visión artificial",
+      "Automatización de flujos de marketing"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa el aprovechamiento de la inteligencia artificial para reducir tareas repetitivas. Esto libera tiempo humano y permite que el personal se enfoque en lo estratégico."
   }, {
     "id": 9,
     "Nombre": "Inteligencia de Negocios",
@@ -78,8 +190,22 @@
     "Categoria": "Estrategia",
     "Descripcion": "Transformamos tus datos en información accionable, optimizando decisiones estratégicas de tu negocio.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Mejor toma de decisiones",
+      "Detección de oportunidades",
+      "Identificación de riesgos",
+      "Optimización de recursos",
+      "Visión estratégica basada en datos"
+    ],
+    "Aplicacion": [
+      "Dashboards ejecutivos",
+      "Reportes automáticos de ventas",
+      "Análisis de métricas financieras",
+      "Estudios de mercado con datos reales",
+      "KPIs personalizados por área"
+    ],
+    "estado": "Activo",
+    "Significado": "Significa transformar datos en conocimiento útil para guiar la empresa. Es la clave para tomar decisiones más inteligentes y anticiparse al mercado."
   }, {
     "id": 10,
     "Nombre": "Capacitación Tecnológica",
@@ -87,8 +213,22 @@
     "Categoria": "Estrategia",
     "Descripcion": "Diseñamos programas de formación en herramientas digitales, según las necesidades de tu empresa.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Mayor productividad del equipo",
+      "Mejor uso de herramientas tecnológicas",
+      "Reducción de errores en procesos",
+      "Actualización constante de conocimientos",
+      "Fortalecimiento del talento interno"
+    ],
+    "Aplicacion": [
+      "Cursos en línea personalizados",
+      "Capacitaciones presenciales",
+      "Workshops prácticos",
+      "Entrenamiento en software específico",
+      "Programas de actualización continua"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa la inversión en el talento humano para que la tecnología sea bien aprovechada. Un equipo capacitado multiplica el valor de cualquier herramienta digital."
   }, {
     "id": 11,
     "Nombre": "Transformación Digital",
@@ -96,8 +236,22 @@
     "Categoria": "Estrategia",
     "Descripcion": "Acompañamos la evolución de tu empresa digitalizando procesos y adoptando nuevas tecnologías.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Modernización de procesos",
+      "Mayor competitividad en el mercado",
+      "Adaptación a nuevas tecnologías",
+      "Mejor experiencia para clientes",
+      "Reducción de costos operativos"
+    ],
+    "Aplicacion": [
+      "Digitalización de documentos",
+      "Automatización de procesos manuales",
+      "Implementación de e-commerce",
+      "Adopción de herramientas colaborativas",
+      "Migración a sistemas en la nube"
+    ],
+    "estado": "Activo",
+    "Significado": "Significa cambiar la manera en que una empresa opera, adaptándola al mundo digital. Es el puente que asegura la competitividad y la innovación en el largo plazo."
   }, {
     "id": 12,
     "Nombre": "Optimización de Procesos",
@@ -105,7 +259,21 @@
     "Categoria": "Estrategia",
     "Descripcion": "Analizamos y rediseñamos tus procesos para aumentar la productividad y disminuir gastos operativos.",
     "Imagen": "prueba.jpg",
-    "Beneficios": [],
-    "estado": "Activo"
+    "Beneficios": [
+      "Reducción de tiempos de ejecución",
+      "Eliminación de tareas innecesarias",
+      "Aumento de la productividad",
+      "Menor gasto operativo",
+      "Mayor satisfacción del cliente"
+    ],
+    "Aplicacion": [
+      "Mapeo de procesos internos",
+      "Análisis de flujos de trabajo",
+      "Implementación de metodologías Lean",
+      "Automatización de tareas repetitivas",
+      "Rediseño de procesos críticos"
+    ],
+    "estado": "Activo",
+    "Significado": "Representa el enfoque en hacer más con menos, eliminando desperdicios y mejorando cada paso operativo. Se traduce en eficiencia y ahorro para la empresa."
   }]
 }
