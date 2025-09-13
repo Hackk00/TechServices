@@ -21,6 +21,7 @@ html {
 /* Aplicación general */
 
 body {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     font-family: "Nunito Sans", sans-serif;
@@ -126,3 +127,17 @@ input{
     max-width: 27% !important;
 }
 
+/*--------------------------------MENU--------------------------------*/
+.sidebar {
+  min-width: 12%;
+  transition: width 0.3s;
+}
+.sidebar.collapsed {
+  width: 70px;
+}
+.sidebar .nav-link span {
+  transition: opacity 0.2s;
+}
+.sidebar.collapsed .nav-link span {
+  opacity: 0;
+}

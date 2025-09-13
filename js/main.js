@@ -1,8 +1,14 @@
-  // Mostrar/ocultar según el scroll
-  $(window).scroll(function() {
+  $(document).ready(function() {
+      // Mostrar/ocultar según el scroll
+    $(window).scroll(function() {
       if ($(this).scrollTop() > 200) {
-          $('#btnSubir').fadeIn();
+        $('#btnSubir').fadeIn();
       } else {
-          $('#btnSubir').fadeOut();
+        $('#btnSubir').fadeOut();
       }
+    });
+      // Toggle sidebar modo "icon-only"
+    $("#sidebarToggle").on("click", function() {
+      $("#sidebar").toggleClass("collapsed");
+    });
   });
