@@ -11,7 +11,7 @@ $(document).ready(function() {
     return `
       <div class="col-lg-3 mb-2">
         <div class="card rounded shadow-sm">
-          <img src="img/${servicio.Imagen}" class="card-img-top img-fluid" alt="${servicio.Nombre}">
+          <img src="img/${servicio.Imagen}" class="card-img-top img-fluid card_img" alt="${servicio.Nombre}">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">${servicio.Nombre}</h5>
             <p class="card-text">${servicio.slogan}</p>

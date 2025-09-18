@@ -114,30 +114,37 @@ body {
     cursor: pointer;
     color: #6c757d;
 }
-
 /*-------------------------------INPUTS--------------------------------*/
-input{
+
+input {
     padding-top: 1.2em !important;
     padding-bottom: 1.2em !important;
 }
-
 /*-------------------------------GRID--------------------------------*/
-.col-lg-3_5{
+
+.col-lg-3_5 {
     flex: 0 0 27% !important;
     max-width: 27% !important;
 }
-
 /*--------------------------------MENU--------------------------------*/
+
 .sidebar {
-  min-width: 12%;
-  transition: width 0.3s;
+    min-width: 12%;
+    transition: width 0.3s;
 }
 .sidebar.collapsed {
-  width: 70px;
+    width: 70px;
 }
 .sidebar .nav-link span {
-  transition: opacity 0.2s;
+    transition: opacity 0.2s;
 }
 .sidebar.collapsed .nav-link span {
-  opacity: 0;
+    opacity: 0;
+}
+/*-----------------------------IMG-------------------------------------*/
+
+.card_img {
+    width: 100% !important;
+    max-height: 280px !important;
+    min-height: 250px !important;
 }
