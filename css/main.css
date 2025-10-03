@@ -68,6 +68,10 @@ body {
 .rounded {
     border-radius: 0.5em !important;
 }
+.rounded-left {
+    border-top-left-radius: 0.5em !important;
+    border-bottom-left-radius: 0.5em !important;
+}
 /*---------------------------PADDING-----------------------------*/
 
 .px-2_0 {
