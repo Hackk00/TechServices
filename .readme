@@ -1,0 +1,62 @@
+# 🌐 TechServices
+
+Aplicación **Front-End** desarrollada como proyecto académico para mostrar los servicios de una empresa de tecnología, incluyendo un panel administrativo para la gestión de servicios.  
+
+Este proyecto fue construido con **HTML, CSS, JavaScript, Bootstrap y jQuery**, utilizando un archivo `bd.json` como base de datos en formato plano.
+
+⚠️ **Nota importante:**  
+La aplicación **no es responsive**. Está diseñada únicamente para pantallas de escritorio, por lo que su visualización en **teléfonos o dispositivos móviles puede verse afectada** y no garantizar la misma experiencia de usuario.
+
+---
+
+## 📌 Características principales
+
+- **Página de inicio** con banner promocional, navegación y secciones de servicios destacados.
+- **Listado de servicios** organizados por categorías (Desarrollo, Infraestructura, Seguridad, Estrategia).
+- **Filtros dinámicos** que permiten explorar los servicios según área de interés.
+- **Detalle de servicio** con información completa: nombre, descripción, precio, disponibilidad, imagen y estado de promoción.
+- **Formulario de contacto/cotización** para clientes.
+- **Login de administrador** (maquetado, sin validación en BD).
+- **Panel administrativo** con operaciones CRUD:
+  - Crear servicios
+  - Leer servicios
+  - Editar servicios
+  - Eliminar servicios
+- **Gestión centralizada de datos** desde `bd.json`.
+
+---
+
+## 📂 Estructura del proyecto
+
+TechServices/
+│
+├── index.html # Página principal
+├── servicios.html # Listado y filtros de servicios
+├── servicio.html # Detalle de servicio
+├── login.html # Login de administrador
+├── admin.html # Panel administrativo (CRUD)
+│
+├── css/ # Estilos (Bootstrap + personalizados)
+│ └── styles.css
+│
+├── js/ # Scripts de la aplicación
+│ ├── main.js
+│ ├── admin.js
+│ └── servicios.js
+│
+├── assets/ # Imágenes y recursos gráficos
+│
+└── data/
+└── bd.json # Base de datos en JSON con los servicios
+
+---
+
+👨‍💻 Autores
+
+- Jesus Polo Angarita
+- Jairo Ernesto Bohorquez Lagos
+- Sebastian Henao Ruiz
+- Laura Morera Sanchez
+- Karol Rojas Soriano
+- Juan Sebastian de la Cruz Sosa
+- Tatiana Arcos Guerrero
