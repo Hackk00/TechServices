@@ -86,52 +86,62 @@
 								<i class="fas fa-arrow-left"></i>
 							</a>
 							&nbsp;
-							Servicios
+							Editar servicio
 						</h4>
-						<div class="btn-group">
-							<a href="nuevo_servicio.html" class="btn btn-dark btn-sm" type="button">
-								<i class="fas fa-plus"></i>
-								Nuevo servicio
-							</a>
-						</div>
 					</div>
 					<div class="card-body">
 						<div class="row p-2">
-							<div class="col-lg-12">
-								<div class="table-responsive tabla_servicios">
-									<table class="table table-hover border">
-										<thead class="text-center text-black">
-											<tr>
-												<th>Nombre</th>
-												<th>Descripci&oacute;n</th>
-												<th>Categoria</th>
-												<th>Imagen</th>
-												<th>Estado</th>
-											</tr>
-										</thead>
-										<tbody class="text-center" id="tabla-servicios">
-										</tbody>
-									</table>
-
-									<!-- Paginador fijo -->
-									<nav>
-										<ul class="pagination float-right">
-											<li class="page-item">
-												<a class="page-link text-dark" href="#" id="prev">
-													<i class="fas fa-arrow-left"></i>
-												</a>
-											</li>
-											<li class="page-item text-white"><a class="page-link bg-black text-white" href="#" data-page="1">1</a></li>
-											<li class="page-item"><a class="page-link text-black" href="#" data-page="2">2</a></li>
-											<li class="page-item"><a class="page-link text-black" href="#" data-page="3">3</a></li>
-											<li class="page-item">
-												<a class="page-link text-black" href="#" id="next">
-													<i class="fas fa-arrow-right"></i>
-												</a>
-											</li>
-										</ul>
-									</nav>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
+								<input type="text" class="form-control rounded" id="nombre">
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Eslogan <span class="text-danger">*</span></label>
+								<input type="text" class="form-control rounded" id="slogan">
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Categoria <span class="text-danger">*</span></label>
+								<select class="form-control rounded" id="categoria">
+									<option value="">Seleccione una opcion...</option>
+								</select>
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Imagen <span class="text-danger">*</span></label>
+								<div class="input-group mb-3">
+									<div class="custom-file">
+										<input type="file" class="custom-file-input rounded" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+										<label class="custom-file-label rounded" for="inputGroupFile01">Seleccionar archivo...</label>
+									</div>
 								</div>
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Beneficios <span class="text-danger">*</span></label>
+								<input type="text" class="form-control rounded" id="beneficios" placeholder="Ingresa valores separados por coma">
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Aplicacion <span class="text-danger">*</span></label>
+								<input type="text" class="form-control rounded" id="aplicacion" placeholder="Ingresa valores separados por coma">
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Descrici&oacute;n corta <span class="text-danger">*</span></label>
+								<input type="text" class="form-control rounded" id="descripcion_corta" placeholder="">
+							</div>
+							<div class="col-lg-4 form-group">
+								<label class="font-weight-bold">Estado <span class="text-danger">*</span></label>
+								<select class="form-control rounded" id="estado">
+									<option value="">Seleccione una opcion...</option>
+								</select>
+							</div>
+							<div class="col-lg-12 form-group">
+								<label class="font-weight-bold">Descrici&oacute;n completa <span class="text-danger">*</span></label>
+								<textarea class="form-control rounded" id="descripcion_larga" rows="8"></textarea>
+							</div>
+							<div class="col-lg-12 form-group mt-2">
+								<button class="btn btn-dark float-right" type="button">
+									<i class="fas fa-edit"></i>
+									&nbsp;
+									Editar servicio
+								</button>
 							</div>
 						</div>
 					</div>
@@ -140,37 +150,10 @@
 		</div>
 	</div>
 </div>
-
-<div class="modal fade" id="servicio_${servicio.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-body">
-				<div class="row p-2">
-					<div class="col-lg-12 form-group">
-						<h3 class="font-weight-bold text-dark">Deseas eliminar este servicio ?</h3>
-					</div>
-					<div class="col-lg-12 form-group text-right mt-3">
-						<button class="btn btn-danger" type="button" data-dismiss="modal">
-							<i class="fas fa-trash"></i>
-							Cancelar
-						</button>
-						<button class="btn btn-dark" type="button">
-							<i class="fas fa-check"></i>
-							Confirmar
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
 <!-- SCRIPTS -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
-<script src="js/serviciosAdmin.js"></script>
+<script src="js/servicioDetalle.js"></script>
 </body>
 </html>
